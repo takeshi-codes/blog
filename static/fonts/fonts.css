@@ -1,0 +1,8 @@
+/* Font loading: https://medium.com/@thanhnht_66044/how-to-self-host-fonts-in-gatsby-37b781fa96d9 */
+
+/* Cabana font from https://adrien-coquet.com/ */
+
+@font-face {
+  font-family: "Cabana";
+  src: url("Cabana-Regular.otf") format("opentype");
+}
