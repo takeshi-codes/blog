@@ -26,6 +26,15 @@ const Globals = createGlobalStyle`
     line-height: 1.1;
     letter-spacing: 0.1rem;
   }
+  h2 {
+    margin-bottom: 1.45rem;
+    color: #945d60;
+    font-family: "Cabana";
+    font-weight: bold;
+    font-size: 2.75rem;
+    line-height: 1.1;
+    letter-spacing: 0.1rem;
+  }
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
