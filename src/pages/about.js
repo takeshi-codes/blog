@@ -1,0 +1,56 @@
+import React from 'react';
+import { Link } from 'gatsby';
+import styled from 'styled-components';
+
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+
+const StyledLink = styled(props => <Link {...props} />)`
+  color: #945d60;
+  text-decoration: none;
+`;
+
+const AboutPage = () => (
+  <Layout>
+    <SEO title="About" />
+    <h1>About Me</h1>
+    <p>A page about me on my website created by me. Neato.</p>
+    <p>
+      I'm a software developer living in Rocket City AL with my lovely wife.
+      Haven't been here for too long, but it's been pretty enjoyable so far.
+      Pretty good food, even better beer.
+    </p>
+    <p>
+      I currently work at{' '}
+      <StyledLink
+        to="https://www.sangoma.com/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Sangoma
+      </StyledLink>
+      , where I work on a team of engineers managing and maintaining cloud
+      infrastructure and applications.
+    </p>
+    <p>
+      I like doing Frontend Development, pretty into React and Gatsby. Ruby on
+      Rails and Node is also something you can find me dabbling in. And cloud
+      stuff too, like AWS and Firebase.
+    </p>
+    <p>
+      Outside of computer-y stuff, I like to cook... a lot. Also pretty into
+      beer, Nintendo games, and playing with my dog. You can find pictures of
+      him on my{' '}
+      <StyledLink
+        to="https://twitter.com/its_dgreen"
+        rel="noreferrer"
+        target="_blank"
+      >
+        twitter
+      </StyledLink>
+      , he's a good boy.
+    </p>
+  </Layout>
+);
+
+export default AboutPage;

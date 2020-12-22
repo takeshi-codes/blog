@@ -18,12 +18,13 @@ const StyledLeftSection = styled.section`
   float: left;
   @media (max-width: 768px) {
     float: none;
-    margin-left:3vw;
+    margin-left: 3vw;
   }
 `;
 
 const StyledH1 = styled.h1`
   margin: 0;
+  font-size: 2.25rem;
   @media (max-width: 768px) {
     font-size: 2rem;
   }
@@ -57,7 +58,7 @@ const NavLink = styled(props => <Link {...props} />)`
 `;
 
 const StyledSVG = styled.svg`
-  height:2.5vh;
+  height: 2.5vh;
   fill: #f8f6f9;
 `;
 
@@ -71,7 +72,7 @@ const Header = () => (
     <StyledRightSection>
       <NavLink to="/blog">Blog</NavLink>
       <NavLink to="/about">About</NavLink>
-      <NavLink to="/about">Projects</NavLink>
+      <NavLink to="/projects">Projects</NavLink>
       <NavLink
         to="https://its-dgreen.github.io/"
         rel="noreferrer"
@@ -79,8 +80,11 @@ const Header = () => (
       >
         CV
       </NavLink>
-      <NavLink to="https://twitter.com/its_dgreen" rel="noreferrer"
-        target="_blank">
+      <NavLink
+        to="https://twitter.com/its_dgreen"
+        rel="noreferrer"
+        target="_blank"
+      >
         {/* Twitter logo from https://gist.github.com/mbostock/3094619 */}
         <StyledSVG viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
           <path
