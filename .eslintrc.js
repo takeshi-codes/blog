@@ -3,7 +3,7 @@ module.exports = {
     __PATH_PREFIX__: true,
     tw: true,
   },
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   extends: [
     `react-app`,
     `eslint:recommended`,

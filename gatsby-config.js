@@ -31,9 +31,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
-        custom:{
-          families: ["Cabana"],
-          urls: ["/fonts/fonts.css"],
+        custom: {
+          families: ['Cabana'],
+          urls: ['/fonts/fonts.css'],
         },
       },
     },
