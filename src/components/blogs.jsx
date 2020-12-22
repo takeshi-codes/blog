@@ -11,6 +11,11 @@ const BlogLink = styled(props => <Link {...props} />)`
   text-decoration: none;
 `;
 
+const StyledDate = styled.p`
+  color:#945d60;
+  font-weight: 900; 
+`;
+
 const Listing = () => {
   const data = useStaticQuery(graphql`
     query ListingQuery {
@@ -21,7 +26,7 @@ const Listing = () => {
             frontmatter {
               title
               slug
-              date
+              date(formatString: "MMMM Do, YYYY")
             }
           }
         }
@@ -32,8 +37,8 @@ const Listing = () => {
     <ArticleLayout key={edge.node.slug}>
       <BlogLink to={`/posts/${edge.node.frontmatter.slug}`}>
         <h2>{edge.node.frontmatter.title}</h2>
-        <p>{edge.node.frontmatter.date}</p>
       </BlogLink>
+      <StyledDate>{edge.node.frontmatter.date}</StyledDate>
       <p>{edge.node.excerpt}</p>
       <BlogLink to={`/posts/${edge.node.frontmatter.slug}`}>
         Read More &#8594;
