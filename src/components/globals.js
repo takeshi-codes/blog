@@ -19,6 +19,7 @@ const Globals = createGlobalStyle`
   }
   h1 {
     margin-bottom: 1.45rem;
+    margin-top: 0;
     color: #945d60;
     font-family: "Cabana";
     font-weight: bold;
@@ -28,12 +29,17 @@ const Globals = createGlobalStyle`
   }
   h2 {
     margin-bottom: 1.45rem;
+    margin-top: 0;
     color: #945d60;
     font-family: "Cabana";
     font-weight: bold;
     font-size: 2.75rem;
     line-height: 1.1;
     letter-spacing: 0.1rem;
+  }
+  a {
+    text-decoration: none;
+    color: #945d60;
   }
   @media only screen and (max-width: 480px) {
     html {

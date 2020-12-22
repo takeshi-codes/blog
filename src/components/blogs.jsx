@@ -21,6 +21,7 @@ const Listing = () => {
             frontmatter {
               title
               slug
+              date
             }
           }
         }
@@ -31,9 +32,12 @@ const Listing = () => {
     <ArticleLayout key={edge.node.slug}>
       <BlogLink to={`/posts/${edge.node.frontmatter.slug}`}>
         <h2>{edge.node.frontmatter.title}</h2>
+        <p>{edge.node.frontmatter.date}</p>
       </BlogLink>
       <p>{edge.node.excerpt}</p>
-      <BlogLink to={`/posts/${edge.node.frontmatter.slug}`}>Read More &#8594;</BlogLink>
+      <BlogLink to={`/posts/${edge.node.frontmatter.slug}`}>
+        Read More &#8594;
+      </BlogLink>
     </ArticleLayout>
   ));
 };

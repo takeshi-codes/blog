@@ -5,11 +5,12 @@ import styled from 'styled-components';
 
 const StyledHeader = styled.header`
   background: #626e60;
-  margin-bottom: 1.6vh;
+  margin-bottom: 3vh;
   width: 100%;
   height: 9vh;
   @media (max-width: 768px) {
     height: 15vh;
+    margin-bottom: 0;
   }
 `;
 
