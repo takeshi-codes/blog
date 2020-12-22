@@ -11,19 +11,20 @@ const Globals = createGlobalStyle`
   body {
     margin: 0;
     word-wrap: break-word;
-    font-family: "Cabana";
-    font-size: 2rem;
+    font-family: "Fox & Cat";
+    font-size: 1.5rem;
     text-rendering: optimizeLegibility;
-    letter-spacing: 0.1rem;
     color: #3c3c3c;
     background: #f8f6f9;
   }
   h1 {
     margin-bottom: 1.45rem;
     color: #945d60;
+    font-family: "Cabana";
     font-weight: bold;
     font-size: 4.25rem;
     line-height: 1.1;
+    letter-spacing: 0.1rem;
   }
   @media only screen and (max-width: 480px) {
     html {

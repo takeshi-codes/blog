@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Socials from '../components/socials';
 
-const StyledLink = styled(props => <Link {...props} />)`
+const StyledLink = styled.a`
   color: #945d60;
   text-decoration: none;
 `;
@@ -13,7 +13,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
-    <h1>About Me</h1>
+    <h1>&#60;About Me&#47;&#62;</h1>
     <p>A page about me on my website created by me. Neato.</p>
     <p>
       I'm a software developer living in Rocket City AL with my lovely wife.
@@ -23,7 +23,7 @@ const AboutPage = () => (
     <p>
       I currently work at{' '}
       <StyledLink
-        to="https://www.sangoma.com/"
+        href="https://www.sangoma.com/"
         rel="noreferrer"
         target="_blank"
       >
@@ -42,7 +42,7 @@ const AboutPage = () => (
       beer, Nintendo games, and playing with my dog. You can find pictures of
       him on my{' '}
       <StyledLink
-        to="https://twitter.com/its_dgreen"
+        href="https://twitter.com/its_dgreen"
         rel="noreferrer"
         target="_blank"
       >
@@ -50,6 +50,8 @@ const AboutPage = () => (
       </StyledLink>
       , he's a good boy.
     </p>
+    <p>You can find me at the following:</p>
+    <Socials />
   </Layout>
 );
 

@@ -2,7 +2,14 @@
 
 /* Cabana font from https://adrien-coquet.com/ */
 
+/* Fox & Cat font from https://www.graphicpear.com/fox-cat-typeface/ */
+
 @font-face {
   font-family: "Cabana";
   src: url("Cabana-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Fox & Cat";
+  src: url("Fox\ &\ Cat.ttf") format("truetype");
 }
