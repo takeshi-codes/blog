@@ -7,9 +7,11 @@
 @font-face {
   font-family: "Cabana";
   src: url("Cabana-Regular.otf") format("opentype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Fox & Cat";
   src: url("Fox\ &\ Cat.ttf") format("truetype");
+  font-display: swap;
 }

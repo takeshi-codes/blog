@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
-import Layout from '../components/layout';
-import Image from '../components/image';
+import Header from '../components/Header';
+import Globals from '../components/globals';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-  </Layout>
+  <>
+    <Globals />
+    <Header />
+      <SEO title="Home" />
+      <h1>Hi, I'm Dylan</h1>
+      <p>I like to make things. Welcome to my corner of the Internet.</p>
+  </>
 );
 
 export default IndexPage;

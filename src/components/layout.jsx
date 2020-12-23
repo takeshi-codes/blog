@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Globals />
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header />
       <MainWrapper
         style={{
           margin: `0 auto`,

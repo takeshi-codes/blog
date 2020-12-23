@@ -68,6 +68,11 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: 'keywords',
+          content:
+            'dylan green, javascript, gatsby, frontend, developer, ruby, rails, react, software, synthesizer',
+        },
       ].concat(meta)}
     />
   );
