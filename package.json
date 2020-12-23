@@ -10,6 +10,7 @@
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-offline": "^3.4.0",
+    "gatsby-plugin-preload-fonts": "^1.6.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sharp": "^2.8.0",
     "gatsby-plugin-styled-components": "^3.7.0",
@@ -40,12 +41,13 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
+    "commit": "git add . && cz",
     "dev": "gatsby develop -H 0.0.0.0 -p 8000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "preload-fonts": "gatsby-preload-fonts",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "commit": "git add . && cz"
+    "start": "npm run develop"
   },
   "repository": {
     "type": "git",
