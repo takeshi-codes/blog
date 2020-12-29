@@ -10,9 +10,9 @@ const MainWrapper = styled.main`
   margin: 0 auto;
   max-width: 50%;
   padding: 1.45rem 1.0875rem 1.45rem;
-  background: #dfdde0;
+  /* background: #dfdde0; */
   margin-bottom: 5vh;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   @media (max-width: 1024px) {
     max-width: 90%;
   }

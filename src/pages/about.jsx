@@ -35,7 +35,7 @@ const AboutPage = () => (
     <p>
       I like doing Frontend Development, pretty into React and Gatsby. Ruby on
       Rails and Node is also something you can find me dabbling in. And cloud
-      stuff too, like AWS and Firebase.
+      stuff too, like AWS, Firebase, and Heroku.
     </p>
     <p>
       Outside of computer-y stuff, I like to cook... a lot. Also pretty into

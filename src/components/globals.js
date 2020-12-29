@@ -7,6 +7,7 @@ const Globals = createGlobalStyle`
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     overflow-y: scroll;
+    height: 100%;
   }
   body {
     margin: 0;
@@ -16,6 +17,7 @@ const Globals = createGlobalStyle`
     text-rendering: optimizeLegibility;
     color: #3c3c3c;
     background: #f8f6f9;
+    height: 100%;
   }
   h1 {
     margin-bottom: 1.45rem;

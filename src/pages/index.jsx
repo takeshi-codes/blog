@@ -1,16 +1,18 @@
 import React from 'react';
 
-import Header from '../components/header';
-import Globals from '../components/globals';
+import Layout from '../components/layout';
+import Blogs from '../components/blogs';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
   <>
-    <Globals />
-    <Header />
-      <SEO title="Home" />
-      <h1>Hi, I'm Dylan</h1>
-      <p>I like to make things. Welcome to my corner of the Internet.</p>
+    <Layout>
+      <SEO title="Blog" />
+      <h1>Hey, I'm Dylan</h1>
+      <p>I like to make things, welcome to my corner of the internet</p>
+      <h2>&#60;Blogs&#47;&#62;</h2>
+      <Blogs />
+  </Layout>
   </>
 );
 
