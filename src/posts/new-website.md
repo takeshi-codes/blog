@@ -1,6 +1,6 @@
 ---
 slug: 'new-website'
-date: '2020-12-28'
+date: '2020-12-30'
 title: 'New Website, who dis?'
 ---
 
