@@ -16,8 +16,8 @@ const AboutPage = () => (
     <h1>&#60;About Me&#47;&#62;</h1>
     <p>A page about me on my website created by me. Neato.</p>
     <p>
-      I`&apos;`m a software developer living in Rocket City AL with my lovely
-      wife. Haven`&apos;`t been here for too long, but it`&apos;`s been pretty
+      I&apos;m a software developer living in Rocket City AL with my lovely
+      wife. Haven&apos;t been here for too long, but it&apos;s been pretty
       enjoyable so far. Pretty good food, even better beer.
     </p>
     <p>
@@ -48,7 +48,7 @@ const AboutPage = () => (
       >
         twitter
       </StyledLink>
-      , he`&apos;`s a good boy.
+      , he&apos;s a good boy.
     </p>
     <p>You can find me at the following:</p>
     <Socials />
