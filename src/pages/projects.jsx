@@ -20,8 +20,9 @@ const ProjectsPage = () => (
     <SEO title="Projects" />
     <h1>&#60;My Projects&#47;&#62;</h1>
     <p>
-      Here's a list of some of the projects I've worked on, all can be found in my Github. 
-      Some projects are maintained, and some aren't... it just be like that sometimes 🤷
+      Here`&apos;`s a list of some of the projects I`&apos;`ve worked on, all
+      can be found in my Github. Some projects are maintained, and some
+      aren`&apos;`t... it just be like that sometimes 🤷
     </p>
     <ProjectContainer>
       <Project

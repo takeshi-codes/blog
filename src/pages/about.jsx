@@ -16,9 +16,9 @@ const AboutPage = () => (
     <h1>&#60;About Me&#47;&#62;</h1>
     <p>A page about me on my website created by me. Neato.</p>
     <p>
-      I'm a software developer living in Rocket City AL with my lovely wife.
-      Haven't been here for too long, but it's been pretty enjoyable so far.
-      Pretty good food, even better beer.
+      I`&apos;`m a software developer living in Rocket City AL with my lovely
+      wife. Haven`&apos;`t been here for too long, but it`&apos;`s been pretty
+      enjoyable so far. Pretty good food, even better beer.
     </p>
     <p>
       I currently work at{' '}
@@ -39,8 +39,8 @@ const AboutPage = () => (
     </p>
     <p>
       Outside of computer-y stuff, I like to cook... a lot. Also pretty into
-      beer, Nintendo games, playing synthesizer/keyboard, and playing with my dog. You can find pictures of
-      him on my{' '}
+      beer, Nintendo games, playing synthesizer/keyboard, and playing with my
+      dog. You can find pictures of him on my{' '}
       <StyledLink
         href="https://twitter.com/its_dgreen"
         rel="noreferrer"
@@ -48,7 +48,7 @@ const AboutPage = () => (
       >
         twitter
       </StyledLink>
-      , he's a good boy.
+      , he`&apos;`s a good boy.
     </p>
     <p>You can find me at the following:</p>
     <Socials />

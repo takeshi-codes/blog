@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const ProjectWrapper = styled.article`
@@ -25,13 +26,21 @@ const GithubLink = styled.a`
 const Project = ({ title, link, description }) => {
   return (
     <ProjectWrapper>
-      <TitleLink href={link} rel="noreferrer" target="_blank"><h2>&#60;{title}&#47;&#62;</h2></TitleLink>
+      <TitleLink href={link} rel="noreferrer" target="_blank">
+        <h2>&#60;{title}&#47;&#62;</h2>
+      </TitleLink>
       <p>{description}</p>
       <GithubLink href={link} rel="noreferrer" target="_blank">
         Github &#8594;
       </GithubLink>
     </ProjectWrapper>
   );
+};
+
+Project.propTypes = {
+  title: PropTypes.string,
+  link: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default Project;

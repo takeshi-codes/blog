@@ -1,5 +1,4 @@
 import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -86,6 +85,7 @@ const Header = () => (
         rel="noreferrer"
         target="_blank"
       >
+        <span className="screen-reader-only">Twitter</span>
         {/* Twitter logo from https://gist.github.com/mbostock/3094619 */}
         <StyledSVG viewBox="328 355 335 276" xmlns="http://www.w3.org/2000/svg">
           <path

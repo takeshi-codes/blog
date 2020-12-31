@@ -12,8 +12,8 @@ const BlogLink = styled(props => <Link {...props} />)`
 `;
 
 const StyledDate = styled.p`
-  color:#945d60;
-  font-weight: 900; 
+  color: #945d60;
+  font-weight: 900;
 `;
 
 const Listing = () => {
