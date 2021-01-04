@@ -19,7 +19,10 @@ const StyledDate = styled.p`
 const Listing = () => {
   const data = useStaticQuery(graphql`
     query ListingQuery {
-      allMarkdownRemark(limit: 5, sort: { fields: [frontmatter___date] }) {
+      allMarkdownRemark(
+        limit: 5
+        sort: { order: DESC, fields: [frontmatter___date] }
+      ) {
         edges {
           node {
             excerpt
