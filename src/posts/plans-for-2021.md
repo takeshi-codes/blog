@@ -27,7 +27,7 @@ wouldn't have learned otherwise.
 
 - MongoDB
 
-Those last 2 I learned on my own time, but there absolutely great and I think
+Those last 2 I learned on my own time, but they're absolutely great and I think
 they're worth trying out.
 
 ## What I want to learn in 2021
