@@ -70,7 +70,6 @@ const Header = () => (
       </StyledH1>
     </StyledLeftSection>
     <StyledRightSection>
-      <NavLink to="/blog">Blog</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/projects">Projects</NavLink>
       <NavLink

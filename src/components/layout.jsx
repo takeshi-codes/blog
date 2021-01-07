@@ -1,46 +1,40 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 
 import Header from './header';
 import Globals from './globals';
+import Image from '../components/image';
 
 const MainWrapper = styled.main`
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 75%;
   padding: 1.45rem 1.0875rem 1.45rem;
-  /* background: #dfdde0; */
   margin-bottom: 5vh;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  @media (max-width: 1024px) {
-    max-width: 90%;
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  grid-gap: 3vw;
+  @media (max-width: 768px) {
+    grid-template-columns: none;
   }
 `;
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
+const BodyWrapper = styled.section`
+  margin-top: 3vh;
+`;
 
+const Layout = ({ children }) => {
   return (
     <>
       <Globals />
       <Header />
-      <MainWrapper
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
+      <MainWrapper>
+        <aside>
+          <Image />
+          <h2>Hey, I&apos;m Dylan</h2>
+          <p>I like to make things, welcome to my corner of the internet</p>
+        </aside>
+        <BodyWrapper>{children}</BodyWrapper>
       </MainWrapper>
     </>
   );
