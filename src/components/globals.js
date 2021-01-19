@@ -1,7 +1,21 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import Cabana from '../assets/Cabana.otf';
+import FoxAndCat from '../assets/FoxAndCat.ttf';
+
+/* Cabana font from https://adrien-coquet.com/ */
+
+/* Fox & Cat font from https://www.graphicpear.com/fox-cat-typeface/ */
 
 const Globals = createGlobalStyle`
+  @font-face {
+    font-family: Cabana;
+    src: url(${Cabana});
+  }
+  @font-face {
+    font-family: FoxAndCat;
+    src: url(${FoxAndCat});
+  }
   html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -12,7 +26,7 @@ const Globals = createGlobalStyle`
   body {
     margin: 0;
     word-wrap: break-word;
-    font-family: "Fox & Cat";
+    font-family: "FoxAndCat";
     font-size: 1.5rem;
     text-rendering: optimizeLegibility;
     color: #3c3c3c;

@@ -33,15 +33,5 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
-    `gatsby-plugin-preload-fonts`,
-    {
-      resolve: `gatsby-plugin-web-font-loader`,
-      options: {
-        custom: {
-          families: ['Cabana', 'Fox & Cat'],
-          urls: ['/fonts/fonts.css'],
-        },
-      },
-    },
   ],
 };
