@@ -22,9 +22,12 @@ const StyledLeftSection = styled.section`
   }
 `;
 
-const StyledH1 = styled.h1`
+const StyledH1 = styled.p`
   margin: 0;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  font-family: 'Cabana';
   @media (max-width: 768px) {
     font-size: 2rem;
   }
