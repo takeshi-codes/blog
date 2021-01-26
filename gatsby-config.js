@@ -28,7 +28,7 @@ module.exports = {
         name: `ctrlaltdylan`,
         short_name: `ctrlaltdylan`,
         start_url: `/`,
-        icon: `src/images/openforbusiness.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-styled-components`,
