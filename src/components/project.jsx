@@ -3,19 +3,17 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const ProjectWrapper = styled.article`
-  background: #f9f9f9;
   padding: 1vh 1.5vw 2vh;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   position: relative;
 `;
 
 const TitleLink = styled.a`
-  color: #945d60;
+  color: #dfdfe1;
   text-decoration: none;
 `;
 
 const GithubLink = styled.a`
-  color: #945d60;
+  color: #dfdfe1;
   text-decoration: none;
   margin-left: 1.5vw;
   left: 0;

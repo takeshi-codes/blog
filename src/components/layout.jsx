@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -23,6 +24,19 @@ const BodyWrapper = styled.section`
   margin-top: 3vh;
 `;
 
+// TODO: just make an h2 class instead of copy/pasta
+const HomeLink = styled(props => <Link {...props} />)`
+  margin-bottom: 1.45rem;
+  margin-top: 0;
+  color: #dfdfe1;
+  font-family: 'Cabana';
+  font-weight: bold;
+  font-size: 2.75rem;
+  line-height: 1.1;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+`;
+
 const Layout = ({ children }) => {
   return (
     <>
@@ -31,7 +45,7 @@ const Layout = ({ children }) => {
       <MainWrapper>
         <aside>
           <Image />
-          <h2>Hey, I&apos;m Dylan</h2>
+          <HomeLink to="/">Hey, I&apos;m Dylan</HomeLink>
           <p>I like to make things, welcome to my corner of the internet</p>
         </aside>
         <BodyWrapper>{children}</BodyWrapper>

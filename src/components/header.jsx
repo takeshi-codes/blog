@@ -3,39 +3,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledHeader = styled.header`
-  background: #626e60;
   margin-bottom: 3vh;
   width: 100%;
-  height: 9vh;
+  height: 7vh;
   @media (max-width: 768px) {
-    height: 15vh;
     margin-bottom: 0;
-  }
-`;
-
-const StyledLeftSection = styled.section`
-  padding: 2.5vh 0.9vw;
-  float: left;
-  @media (max-width: 768px) {
-    float: none;
-    margin-left: 3vw;
-  }
-`;
-
-const StyledH1 = styled.p`
-  margin: 0;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  letter-spacing: 0.1rem;
-  font-family: 'Cabana';
-  @media (max-width: 768px) {
-    font-size: 2rem;
+    padding-top: 3vh;
   }
 `;
 
 const StyledRightSection = styled.section`
   float: right;
-  padding: 2.5vh 0.9vw;
+  padding-top: 2.5vh;
   margin-right: 2vw;
   @media (max-width: 768px) {
     float: none;
@@ -43,11 +22,6 @@ const StyledRightSection = styled.section`
     padding: 0;
     display: flex;
   }
-`;
-
-const LogoLink = styled(props => <Link {...props} />)`
-  color: #f8f6f9;
-  text-decoration: none;
 `;
 
 const NavLink = styled(props => <Link {...props} />)`
@@ -67,11 +41,6 @@ const StyledSVG = styled.svg`
 
 const Header = () => (
   <StyledHeader>
-    <StyledLeftSection>
-      <StyledH1>
-        <LogoLink to="/">&#60;CtrlAltDylan&#47;&#62;</LogoLink>
-      </StyledH1>
-    </StyledLeftSection>
     <StyledRightSection>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/projects">Projects</NavLink>

@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 import Socials from '../components/socials';
 
 const StyledLink = styled.a`
-  color: #945d60;
+  color: #dfdfe1;
   text-decoration: none;
 `;
 

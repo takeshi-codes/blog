@@ -8,7 +8,7 @@ const SocialSection = styled.section`
 
 const SocialSVG = styled.svg`
   height: 4vh;
-  fill: #3c3c3c;
+  fill: #dfdfe1;
 `;
 
 const SocialLink = styled.a`

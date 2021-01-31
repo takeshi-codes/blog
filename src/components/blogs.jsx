@@ -7,12 +7,11 @@ const ArticleLayout = styled.main`
 `;
 
 const BlogLink = styled(props => <Link {...props} />)`
-  color: #945d60;
+  color: #ac8181;
   text-decoration: none;
 `;
 
 const StyledDate = styled.p`
-  color: #945d60;
   font-weight: 900;
 `;
 
