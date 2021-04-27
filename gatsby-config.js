@@ -3,6 +3,7 @@ module.exports = {
     title: `CtrlAltDylan`,
     description: `JS Dev && Synthesizer Enthusiast`,
     author: `@its-dgreen`,
+    siteUrl: `https://www.ctrlaltdylan.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,5 +34,50 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
+    {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            title: 'ctrlaltdylan',
+            output: 'rss.xml',
+            query: `
+            {
+              allMarkdownRemark(sort: {fields: frontmatter___date, order: ASC}) {
+                nodes {
+                  frontmatter {
+                    title
+                    date
+                    slug
+                  }
+                  html
+                }
+              }
+            }
+            `,
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.nodes.map(node => {
+                return Object.assign({}, node.frontmatter, {
+                  url: `${site.siteMetadata.siteUrl}${node.slug}`,
+                  guid: `${site.siteMetadata.siteUrl}${node.slug}`,
+                });
+              });
+            },
+          },
+        ],
+      },
+    },
   ],
 };
