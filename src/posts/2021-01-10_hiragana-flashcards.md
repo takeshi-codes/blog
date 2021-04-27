@@ -2,6 +2,7 @@
 slug: 'hiragana-flashcards-project'
 date: '2021-01-10'
 title: 'Hiragana Flashcards Project'
+description: 'Dylan is learning Japanese and is using Next.js to help'
 ---
 
 I've finished up my first of 12 projects for the year, for my first project I

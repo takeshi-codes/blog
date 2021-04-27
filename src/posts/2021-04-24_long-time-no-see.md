@@ -2,6 +2,7 @@
 slug: 'long-time-no-see'
 date: '2021-04-24'
 title: 'Long Time No See'
+description: 'TL;DR: School has been killer this last semester'
 ---
 
 Been a hot minute since I blogged so figured I'd give an update. My Master's

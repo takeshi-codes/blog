@@ -2,6 +2,7 @@
 slug: 'february-project'
 date: '2021-03-01'
 title: 'My February Project'
+description: 'Dylan did a data engineering'
 ---
 
 I've finished up my second of 12 projects for the year, and I decided to not do

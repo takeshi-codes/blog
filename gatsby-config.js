@@ -61,6 +61,7 @@ module.exports = {
                     title
                     date
                     slug
+                    description
                   }
                   html
                 }
@@ -70,8 +71,8 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.nodes.map(node => {
                 return Object.assign({}, node.frontmatter, {
-                  url: `${site.siteMetadata.siteUrl}${node.slug}`,
-                  guid: `${site.siteMetadata.siteUrl}${node.slug}`,
+                  url: `${site.siteMetadata.siteUrl}/posts/${node.frontmatter.slug}`,
+                  guid: `${site.siteMetadata.siteUrl}/posts/${node.frontmatter.slug}`,
                 });
               });
             },
