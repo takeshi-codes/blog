@@ -16,9 +16,9 @@ const AboutPage = () => (
     <h1>&#60;About Me&#47;&#62;</h1>
     <p>A page about me on my website created by me. Neato.</p>
     <p>
-      I&apos;m a software developer living in Rocket City AL with my lovely
-      wife. Haven&apos;t been here for too long, but it&apos;s been pretty
-      enjoyable so far. Pretty good food, even better beer.
+      I&apos;m a software engineer living in Rocket City AL with my lovely wife.
+      Haven&apos;t been here for too long, but it&apos;s been pretty enjoyable
+      so far. Pretty good food, even better beer.
     </p>
     <p>
       I currently work at{' '}
@@ -33,9 +33,10 @@ const AboutPage = () => (
       infrastructure and applications.
     </p>
     <p>
-      I like doing Frontend Development, pretty into React and Gatsby. Ruby on
-      Rails and Node is also something you can find me dabbling in. And cloud
-      stuff too, like AWS, Firebase, and Heroku.
+      I like doing web development, I&apos;m pretty into working with Ruby on
+      Rails. You can also find me using tools like Node, React, MongoDB, and
+      React Native. Also like cloud stuff, specifically AWS and Heroku, and
+      occassionally Firebase
     </p>
     <p>
       Outside of computer-y stuff, I like to cook... a lot. Also pretty into
