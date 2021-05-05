@@ -55,15 +55,15 @@ module.exports = {
             output: 'rss.xml',
             query: `
             {
-              allMarkdownRemark(sort: {fields: frontmatter___date, order: ASC}) {
+              allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
                 nodes {
+                  html
                   frontmatter {
                     title
                     date
                     slug
                     description
                   }
-                  html
                 }
               }
             }
@@ -73,6 +73,7 @@ module.exports = {
                 return Object.assign({}, node.frontmatter, {
                   url: `${site.siteMetadata.siteUrl}/posts/${node.frontmatter.slug}`,
                   guid: `${site.siteMetadata.siteUrl}/posts/${node.frontmatter.slug}`,
+                  custom_elements: [{ 'content:encoded': node.html }],
                 });
               });
             },
