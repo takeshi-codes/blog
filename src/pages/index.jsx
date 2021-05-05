@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 const IndexPage = () => (
   <>
-    <SEO title="JS Dev && Synthesizer Enthusiast" />
+    <SEO title="Web Dev && Synthesizer Enthusiast" />
     <Layout>
       <Blogs />
     </Layout>
