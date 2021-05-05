@@ -57,7 +57,6 @@ const Globals = createGlobalStyle`
     letter-spacing: 0.1rem;
   }
   a {
-    text-decoration: none;
     color: #dfdfe1;
   }
   @media only screen and (max-width: 480px) {
