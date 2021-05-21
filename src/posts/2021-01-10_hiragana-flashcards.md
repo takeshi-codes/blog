@@ -22,7 +22,7 @@ through the array to create the flashcard component that displays on the screen.
 
 I have the app hosted on Vercel, and you can check it out
 [here](https://hiragana-flashcards.vercel.app/), and I have all the code up on
-my [Github](https://github.com/its-dgreen/hiragana-flashcards). I've still got
-some cleaning up to do in the repo, but for the most part it's all done!
+my [Github](https://github.com/thisisdylandev/hiragana-flashcards). I've still
+got some cleaning up to do in the repo, but for the most part it's all done!
 
 Well, that's all for now 👋

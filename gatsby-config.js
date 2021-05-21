@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `CtrlAltDylan`,
+    title: `This Is Dylan`,
     description: `Web Dev && Synthesizer Enthusiast`,
-    author: `@its-dgreen`,
+    author: `@thisisdylandev`,
     siteUrl: `https://www.ctrlaltdylan.com/`,
   },
   plugins: [

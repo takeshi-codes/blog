@@ -45,14 +45,14 @@ const Header = () => (
       <NavLink to="/about">About</NavLink>
       <NavLink to="/projects">Projects</NavLink>
       <NavLink
-        to="https://its-dgreen.github.io/"
+        to="https://thisisdylan.github.io/"
         rel="noreferrer"
         target="_blank"
       >
         CV
       </NavLink>
       <NavLink
-        to="https://twitter.com/its_dgreen"
+        to="https://twitter.com/thisisdylandev"
         rel="noreferrer"
         target="_blank"
       >

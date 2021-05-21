@@ -60,10 +60,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/its-dgreen/ctrlaltdylan"
+    "url": "https://github.com/thisisdylandev/ctrlaltdylan"
   },
   "bugs": {
-    "url": "https://github.com/its-dgreen/ctrlaltdylan/issues"
+    "url": "https://github.com/thisisdylandev/ctrlaltdylan/issues"
   },
   "config": {
     "commitizen": {

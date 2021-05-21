@@ -28,29 +28,29 @@ const ProjectsPage = () => (
       <Project
         title="Tweet Scheduler"
         description="Ruby on Rails app for scheduling tweets, created from GoRails"
-        github="https://github.com/its-dgreen/gorails-tweeter"
+        github="https://github.com/thisisdylandev/gorails-tweeter"
       />
       <Project
         title="RegiVGC"
         description="Express app for creating Pokemon VGC events, and for players to locate and register for events with their teams"
-        github="https://github.com/its-dgreen/regivgc"
+        github="https://github.com/thisisdylandev/regivgc"
       />
       <Project
         title="Galar5e"
         description="React & Firebase app for making & using Character Sheets for the D&D 5e homebrew module Pokemon 5e"
-        github="https://github.com/its-dgreen/galar5e"
+        github="https://github.com/thisisdylandev/galar5e"
         link="https://galar5e.com/"
       />
       <Project
         title="Hiragana Flashcards"
         description="Next.js app made for learning hiragana with flashcards"
-        github="https://github.com/its-dgreen/hiragana-flashcards"
+        github="https://github.com/thisisdylandev/hiragana-flashcards"
         link="https://hiragana-flashcards.vercel.app"
       />
       <Project
         title="That's Farfetch'd"
         description="Gatsby site built for the Pokemon podcast That's Farfetch'd!"
-        github="https://github.com/its-dgreen/thats-farfetchd"
+        github="https://github.com/thisisdylandev/thats-farfetchd"
         link="https://www.thatsfarfetchd.com/"
       />
     </ProjectContainer>

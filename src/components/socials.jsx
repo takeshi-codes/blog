@@ -19,7 +19,7 @@ const SocialLink = styled.a`
 const Socials = () => (
   <SocialSection>
     <SocialLink
-      href="https://twitter.com/its_dgreen"
+      href="https://twitter.com/thisisdylandev"
       rel="noreferrer"
       target="_blank"
     >
@@ -48,7 +48,7 @@ const Socials = () => (
     </SocialLink>
     {/* Other logos from https://iconmonstr.com/ */}
     <SocialLink
-      href="https://github.com/its-dgreen"
+      href="https://github.com/thisisdylandev"
       rel="noreferrer"
       target="_blank"
     >

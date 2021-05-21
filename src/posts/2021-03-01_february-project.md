@@ -23,6 +23,6 @@ transformation, and get more practice coding with Python. I'm still planning on
 writing some Airflow stuff in it, and I want to set it all up with Docker.
 
 You can check out the code for it over on my
-[Github](https://github.com/its-dgreen/spotify-etl).
+[Github](https://github.com/thisisdylandev/spotify-etl).
 
 Well, that's all for now 👋

@@ -40,10 +40,10 @@ const AboutPage = () => (
     </p>
     <p>
       Outside of computer-y stuff, I like to cook... a lot. Also pretty into
-      beer, Nintendo games, playing synthesizer/keyboard, and playing with my
-      dog. You can find pictures of him on my{' '}
+      beer, Nintendo games, playing synthesizer/keyboard and bass, and playing
+      with my dog. You can find pictures of him on my{' '}
       <StyledLink
-        href="https://twitter.com/its_dgreen"
+        href="https://twitter.com/thisisdylandev"
         rel="noreferrer"
         target="_blank"
       >
