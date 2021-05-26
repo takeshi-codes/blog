@@ -26,6 +26,12 @@ const ProjectsPage = () => (
     </p>
     <ProjectContainer>
       <Project
+        title="Our Groceries"
+        description="Hotwire app for sharing grocery lists, updated in real time"
+        github="https://github.com/thisisdylandev/ourgroceries"
+        link="https://our-groceries.herokuapp.com"
+      />
+      <Project
         title="Tweet Scheduler"
         description="Ruby on Rails app for scheduling tweets, created from GoRails"
         github="https://github.com/thisisdylandev/gorails-tweeter"
@@ -46,12 +52,6 @@ const ProjectsPage = () => (
         description="Next.js app made for learning hiragana with flashcards"
         github="https://github.com/thisisdylandev/hiragana-flashcards"
         link="https://hiragana-flashcards.vercel.app"
-      />
-      <Project
-        title="That's Farfetch'd"
-        description="Gatsby site built for the Pokemon podcast That's Farfetch'd!"
-        github="https://github.com/thisisdylandev/thats-farfetchd"
-        link="https://www.thatsfarfetchd.com/"
       />
     </ProjectContainer>
   </Layout>
