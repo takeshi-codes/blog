@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hotwire, Bridgetown, Tailwind, oh my!</title>
+      <link>http://example.org/new-project-and-plans/</link>
+      <pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/new-project-and-plans/</guid>
+      <description>Talking about my latest project, and my plans for the future for this blog</description>
+    </item>
+    
+    <item>
+      <title>I bought a GoRails subscription</title>
+      <link>http://example.org/gorails/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/gorails/</guid>
+      <description>Post-mortem on the GoRails beginner Rails tutorial</description>
+    </item>
+    
+    <item>
+      <title>JavaScript And Me</title>
+      <link>http://example.org/javascript-and-me/</link>
+      <pubDate>Fri, 30 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/javascript-and-me/</guid>
+      <description>My feelings towards JavaScript as of late</description>
+    </item>
+    
+    <item>
+      <title>Long Time No See</title>
+      <link>http://example.org/long-time-no-see/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/long-time-no-see/</guid>
+      <description>TL;DR: School has been killer this last semester</description>
+    </item>
+    
+    <item>
+      <title>My February Project</title>
+      <link>http://example.org/february-project/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/february-project/</guid>
+      <description>Dylan did a data engineering</description>
+    </item>
+    
+    <item>
+      <title>Hiragana Flashcards Project</title>
+      <link>http://example.org/hiragana-flashcards-project/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/hiragana-flashcards-project/</guid>
+      <description>Dylan is learning Japanese and is using Next.js to help</description>
+    </item>
+    
+    <item>
+      <title>My plans for 2021</title>
+      <link>http://example.org/2021-plans/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/2021-plans/</guid>
+      <description>What I plan to do this year</description>
+    </item>
+    
+    <item>
+      <title>New Website, who dis?</title>
+      <link>http://example.org/new-website/</link>
+      <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/new-website/</guid>
+      <description>I updated my website!</description>
+    </item>
+    
+  </channel>
+</rss>
