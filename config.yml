@@ -54,13 +54,13 @@ params:
         title: Hey there, I'm Dylan 👋 
         subtitle: >
             Welcome to my corner of the Internet, I'm working on it.
-        imageUrl: "images/profile.jpeg"
+        imageUrl: "images/profile.jpg"
         imageTitle: Dylan And Potter
         imageWidth: 360
         imageHeight: 360
         buttons:
             - name: 📝 Posts
-              url: archives
+              url: posts
             - name: 🤙 About
               url: about
     socialIcons:
