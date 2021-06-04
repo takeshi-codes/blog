@@ -60,9 +60,9 @@ params:
         imageHeight: 360
         buttons:
             - name: 📝 Posts
-              url: posts
+              url: posts/
             - name: 🤙 About
-              url: about
+              url: about/
     socialIcons:
         - name: github
           url: "https://github.com/thisisdylandev"
