@@ -26,7 +26,7 @@ languages:
                   url: about/
                   weight: 2
                 - name: Polywork
-                  url: https://poly.work/thisisdylandev
+                  url: https://work.thisisdylan.dev
                   weight: 3
 
 outputs:
