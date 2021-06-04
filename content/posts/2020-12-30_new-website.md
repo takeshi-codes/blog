@@ -3,6 +3,7 @@ slug: 'new-website'
 date: '2020-12-30'
 title: 'New Website, who dis?'
 description: 'I updated my website!'
+draft: false
 ---
 
 I decided to redo my personal website because of reasons. Biggest reason was I

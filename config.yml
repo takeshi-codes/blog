@@ -1,0 +1,111 @@
+baseURL: https://thisisdylan.dev/
+languageCode: en-us
+title: ThisIsDylan 🐨
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+    disableXML: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Posts
+                  url: posts/
+                  weight: 1
+                - name: About
+                  url: about/
+                  weight: 2
+                - name: Polywork
+                  url: https://poly.work/thisisdylandev
+                  weight: 3
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production
+    description: "Web Dev && Bass Player"
+    author: ThisIsDylan
+
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: false
+
+    profileMode:
+        enabled: true
+        title: Hey there, I'm Dylan 👋 
+        subtitle: >
+            Welcome to my corner of the Internet, I'm working on it.
+        imageUrl: "images/profile.jpg"
+        imageTitle: Dylan And Potter
+        imageWidth: 360
+        imageHeight: 360
+        buttons:
+            - name: 📝 Posts
+              url: posts
+            - name: 🤙 About
+              url: about
+    socialIcons:
+        - name: github
+          url: "https://github.com/thisisdylandev"
+        - name: twitter
+          url: "https://twitter.com/thisisdylandev"
+        - name: RsS
+          url: "index.xml"
+
+taxonomies:
+    post: posts
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        noClasses: false
+        style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
