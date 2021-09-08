@@ -1,6 +1,6 @@
 baseURL: https://thisisdylan.dev/
 languageCode: en-us
-title: ThisIsDylan 🐨
+title: ThisIsDylan 🏉
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -37,7 +37,7 @@ outputs:
 
 params:
     env: production
-    description: "Web Dev && Bass Player"
+    description: "Web Dev && Rugger && Bassist"
     author: ThisIsDylan
 
     defaultTheme: auto
