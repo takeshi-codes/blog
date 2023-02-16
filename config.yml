@@ -1,6 +1,6 @@
 baseURL: https://thisisdylan.dev/
 languageCode: en-us
-title: ThisIsDylan 🏉
+title: thisisdylan 🍜
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -34,8 +34,8 @@ outputs:
 
 params:
     env: production
-    description: "Web Dev && Rugger && Bassist"
-    author: ThisIsDylan
+    description: "web dev && low-key otaku"
+    author: thisisdylan
 
     defaultTheme: auto
     ShowShareButtons: true
@@ -51,7 +51,7 @@ params:
         title: Hey there, I'm Dylan 👋 
         subtitle: >
             Welcome to my corner of the Internet, I'm working on it.
-        imageUrl: "images/profile.jpg"
+        imageUrl: "images/_profile.jpg"
         imageTitle: Dylan And Potter
         imageWidth: 360
         imageHeight: 360
