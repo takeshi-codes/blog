@@ -144,6 +144,5 @@ default "apple-touch-icon.png" | absURL }}"> <link rel="mask-icon" href="{{
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 {{ end }} {{- partial "extend_head.html" . -}} {{- /* Misc */}} {{- if
 hugo.IsProduction | or (eq .Site.Params.env "production") }} {{- template
-"_internal/google_analytics.html" . }} {{- template "_internal/google_news.html"
-. }} {{- template "partials/templates/opengraph.html" . }} {{- template
+"_internal/google_analytics.html" . }} {{- template "partials/templates/opengraph.html" . }} {{- template
 "partials/templates/schema_json.html" . }} {{- end -}}
