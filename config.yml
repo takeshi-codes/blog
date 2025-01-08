@@ -1,6 +1,6 @@
-baseURL: https://rubyshochu.dev/
+baseURL: https://ontherails.dev/
 languageCode: en-us
-title: Ruby Shochu 🍶
+title: On The Rails
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -62,9 +62,7 @@ params:
               url: about/
     socialIcons:
         - name: github
-          url: "https://github.com/thisisdylandev"
-        - name: twitter
-          url: "https://twitter.com/thisisdylandev"
+          url: "https://github.com/takeshi-codes"
         - name: RsS
           url: "index.xml"
 
