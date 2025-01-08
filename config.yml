@@ -1,7 +1,7 @@
 baseURL: https://ontherails.dev/
 languageCode: en-us
 title: On The Rails
-theme: "PaperMod"
+theme: ["PaperMod"]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -36,38 +36,8 @@ params:
     env: production
     description: "web dev && low-key otaku"
     author: Dylan
-
     defaultTheme: auto
-    ShowShareButtons: true
-    ShowReadingTime: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowToc: false
-
-    profileMode:
-        enabled: true
-        title: Hey there, I'm Dylan 👋 
-        subtitle: >
-            Welcome to my corner of the Internet, I'm working on it.
-        imageUrl: "images/_profile.jpg"
-        imageTitle: it me
-        imageWidth: 360
-        imageHeight: 360
-        buttons:
-            - name: 📝 Posts
-              url: posts/
-            - name: 🤙 About
-              url: about/
-    socialIcons:
-        - name: github
-          url: "https://github.com/takeshi-codes"
-        - name: RsS
-          url: "index.xml"
-
-taxonomies:
-    post: posts
+    ShowShareButtons: false
 
 markup:
     goldmark:
