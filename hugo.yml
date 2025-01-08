@@ -18,6 +18,9 @@ languages:
 
 
 params:
+  assets:
+    disableHLJS: true
+    favicon: "/assets/favicon.ico"
   ShowShareButtons: false
   homeInfoParams:
     enabled: true

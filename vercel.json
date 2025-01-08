@@ -1,7 +1,8 @@
 {
-    "build": {
-      "env": {
+  "framework": "hugo",
+  "build": {
+    "env": {
       "HUGO_VERSION": "0.139.4"
-      }
     }
   }
+}
