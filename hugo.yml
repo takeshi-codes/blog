@@ -28,8 +28,8 @@ params:
   ShowShareButtons: false
   homeInfoParams:
     enabled: true
-    title: "Howdy, I'm Dylan"
-    content: "welcome to my corner of the internet, ontherails"
+    title: "Hey there, I'm Dylan"
+    content: "welcome to my corner of the internet. stop in for a bit, take a seat, have a drink, get comfortable 🍶"
     # imageUrl: "https://www.gravatar.com/avatar/6d47452c3da111e0689cba5bfea78a3c?s=256"
     # imageTitle: "me"
     # imageWidth: 360 # custom size
